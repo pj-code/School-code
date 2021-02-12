@@ -1,5 +1,6 @@
 body {
-  background-color: ##41474B;
+  background-color: #AEB2B5;
+  font-family: Verdana, Helvetica, sans-serif;
 }
 
 .container {
@@ -11,29 +12,66 @@ body {
 
 .header {
   background-color: #C5E9EA;
-  color:
 }
 
-.button {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+.content {
+  background-color: #AEB2B5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap:5px;
+  row-gap:5px;
 }
 
-.button1 {
+.main {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
   background-color: white;
-  color: #41474B;
-  border: 2px solid #C5E9EA;
 }
 
-.button1:hover {
-  background-color: #C5E9EA;
-  color: white;
+.description {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: white;
+}
+
+.price {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: white;
+}
+
+.recommended {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10%
+}
+
+.rec1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: white;
+}
+
+.rec2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: white;
+}
+
+.rec3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background-color: white;
 }
