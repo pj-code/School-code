@@ -1,3 +1,4 @@
+/* Navigation bar */
 .nav ul {
   list-style-type: none;
   margin: 0;
@@ -22,6 +23,7 @@
   background-color: #111;
 }
 
+/* Search bar on the right */
 .nav input[type=text] {
   float:right;
   padding: 6px;
@@ -30,6 +32,7 @@
   border: none;
 }
 
+/* Add to Cart and View Cart buttons */
 .button {
   border: none;
   color: white;
@@ -43,12 +46,14 @@
   cursor: pointer;
 }
 
+/* button color */
 .button1 {
   background-color: white;
   color: #41474B;
   border: 2px solid #C5E9EA;
 }
 
+/* color change when hovering over button */
 .button1:hover {
   background-color: #C5E9EA;
   color: #41474B;

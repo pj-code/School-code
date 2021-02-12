@@ -23,6 +23,7 @@ body {
   row-gap:5px;
 }
 
+/* Product Name and Image grid*/
 .main {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -31,6 +32,7 @@ body {
   background-color: white;
 }
 
+/* Description and specs grid*/
 .description {
   grid-column-start: 3;
   grid-column-end: 5;
@@ -39,6 +41,7 @@ body {
   background-color: white;
 }
 
+/* Switch option button, price and button grid*/
 .price {
   grid-column-start: 3;
   grid-column-end: 5;
@@ -47,6 +50,7 @@ body {
   background-color: white;
 }
 
+/* Recommended item grids */
 .recommended {
   grid-column-start: 1;
   grid-column-end: 4;
