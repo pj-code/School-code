@@ -18,7 +18,6 @@
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 .nav li a:hover {
   background-color: #111;
 }
@@ -29,21 +28,6 @@
   margin-top: 8px;
   font-size: 17px;
   border: none;
-}
-
-/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-@media screen and (max-width: 600px) {
-  .nav li a, .topnav input[type=text] {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-  .nav input[type=text] {
-    border: 1px solid #ccc;
-  }
 }
 
 .button {
